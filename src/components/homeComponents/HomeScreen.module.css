@@ -48,6 +48,10 @@ h3 {
     margin:10px;
 }
 
+.searchbar input {
+    border:none;
+}
+
 input {
     box-sizing: border-box;
     background-color: transparent;
