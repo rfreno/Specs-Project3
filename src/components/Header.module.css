@@ -1,0 +1,30 @@
+/* Orange header, white text, name left, nav right*/
+
+header {
+    box-sizing: border-box;
+    width:100%;
+    height:60px;
+    background-color: #ff7803;
+    color:white;
+    font-family: sans-serif;
+    padding:10px;
+    font-size: large;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    color:white;
+    padding:10px;
+    background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.btn:hover {
+    color:black;
+}

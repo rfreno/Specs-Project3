@@ -1,0 +1,78 @@
+.banner {
+    height:350px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+}
+
+.banner_content {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap:10px;
+    width:80%;
+}
+
+h1 {
+    color:#ff7803;
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.ad_btn {
+    background-color: #5ca7ab;
+    color:white;
+    border:none;
+    height:30px;
+    width:100px;
+    font-size: 15px;
+    padding:5px;
+}
+
+.searchbar {
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding:5px;
+    background-color: #da773551;
+    display:flex;
+    align-items: center;
+    width: 300px;
+    margin:10px;
+}
+
+input {
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 15px;
+    border:none;
+    width:100%;
+}
+
+.main_content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:200px;
+
+}
+
+.rec_container {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;     
+}
+
+.rec_display {
+    margin-bottom:200px;
+}
